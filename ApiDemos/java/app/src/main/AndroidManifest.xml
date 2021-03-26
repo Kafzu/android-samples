@@ -55,10 +55,14 @@
             1. Open the root project's local.properties file
             2. Add this line, where YOUR_API_KEY is your API key:
                 MAPS_API_KEY=YOUR_API_KEY
+
+                <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD6quDUmWSIs1V3sDX39nTw2KyVOtlrZTs" />
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" />
+            android:value="AIzaSyD6quDUmWSIs1V3sDX39nTw2KyVOtlrZTs" />
 
     </application>
 
